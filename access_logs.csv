@@ -1,0 +1,501 @@
+user_id,device_type,location,time_of_access,resource_requested,intent_prompt,access_granted
+U001,Laptop,India,13,Server_A,access server logs to debug performance issues,1
+U002,Phone,Russia,2,Admin_Panel,change user roles and permissions,0
+U003,Desktop,USA,9,Database,query customer data for analysis,1
+U004,Tablet,China,22,API_Gateway,access API documentation,0
+U005,Laptop,Germany,14,User_Dashboard,view personal dashboard,1
+U006,Phone,UK,3,Server_B,restart server for maintenance,0
+U007,Desktop,India,10,Database,backup database tables,1
+U008,Laptop,USA,15,Admin_Panel,manage user accounts,1
+U009,Phone,Russia,1,Server_A,check system status,0
+U010,Tablet,Japan,11,API_Gateway,test API endpoints,1
+U011,Desktop,Germany,16,User_Dashboard,update profile information,1
+U012,Laptop,China,23,Server_B,monitor server performance,0
+U013,Phone,UK,8,Database,execute data migration scripts,0
+U014,Tablet,India,12,Admin_Panel,configure system settings,1
+U015,Desktop,USA,17,Server_A,deploy new application version,1
+U016,Laptop,Russia,4,API_Gateway,check rate limiting configuration,0
+U017,Phone,Germany,21,User_Dashboard,generate usage reports,1
+U018,Tablet,Japan,7,Database,optimize query performance,1
+U019,Desktop,China,18,Server_B,update security patches,0
+U020,Laptop,UK,13,Admin_Panel,audit user activities,1
+U021,Phone,India,6,Server_A,troubleshoot connectivity issues,1
+U022,Tablet,USA,19,API_Gateway,implement new endpoints,1
+U023,Desktop,Russia,5,Database,clean up old records,0
+U024,Laptop,Germany,20,User_Dashboard,customize interface layout,1
+U025,Phone,Japan,14,Server_B,scale server resources,1
+U026,Tablet,China,2,Admin_Panel,reset user passwords,0
+U027,Desktop,UK,9,Server_A,monitor error logs,1
+U028,Laptop,India,16,Database,create new indexes,1
+U029,Phone,USA,24,API_Gateway,debug authentication issues,0
+U030,Tablet,Russia,11,User_Dashboard,export data reports,1
+U031,Desktop,Germany,8,Server_B,configure load balancing,1
+U032,Laptop,Japan,17,Admin_Panel,manage system permissions,1
+U033,Phone,China,3,Database,run data validation checks,0
+U034,Tablet,UK,15,Server_A,update application configuration,1
+U035,Desktop,India,12,API_Gateway,monitor API usage metrics,1
+U036,Laptop,USA,7,User_Dashboard,set up automated alerts,1
+U037,Phone,Russia,22,Server_B,perform security audit,0
+U038,Tablet,Germany,10,Database,implement data archiving,1
+U039,Desktop,Japan,18,Admin_Panel,configure backup schedules,1
+U040,Laptop,China,1,Server_A,investigate security incidents,0
+U041,Phone,UK,14,API_Gateway,update API documentation,1
+U042,Tablet,India,19,User_Dashboard,analyze user behavior patterns,1
+U043,Desktop,USA,6,Database,execute maintenance scripts,1
+U044,Laptop,Russia,23,Server_B,monitor resource utilization,0
+U045,Phone,Germany,13,Admin_Panel,configure notification settings,1
+U046,Tablet,Japan,9,Server_A,deploy security updates,1
+U047,Desktop,China,20,API_Gateway,test new authentication methods,0
+U048,Laptop,UK,4,Database,optimize storage configuration,1
+U049,Phone,India,16,User_Dashboard,generate compliance reports,1
+U050,Tablet,USA,11,Server_B,configure monitoring dashboards,1
+U0051,Laptop,India,15,User_Dashboard,download all user data,0
+U0052,Phone,India,13,Admin_Panel,view personal dashboard,1
+U0053,Phone,India,4,Admin_Panel,access server logs to debug performance issues,1
+U0054,Tablet,India,16,API_Gateway,fetch recent activity,1
+U0055,Laptop,India,22,User_Dashboard,access API documentation,1
+U0056,Laptop,India,22,Database,bypass authentication logs,0
+U0057,Desktop,India,23,User_Dashboard,escalate admin privileges,1
+U0058,Desktop,India,1,Server_A,export sensitive database,0
+U0059,Tablet,India,20,Logs_System,access server logs to debug performance issues,1
+U0060,Laptop,India,12,User_Dashboard,export sensitive database,0
+U0061,Phone,USA,4,Database,download all user data,0
+U0062,Phone,India,5,API_Gateway,bypass authentication logs,1
+U0063,Phone,India,5,Database,download all user data,1
+U0064,Phone,India,11,Server_A,escalate admin privileges,1
+U0065,Laptop,Germany,4,Database,access server logs to debug performance issues,1
+U0066,Desktop,India,6,User_Dashboard,view personal dashboard,1
+U0067,Tablet,India,21,Admin_Panel,access server logs to debug performance issues,1
+U0068,Desktop,India,7,Server_A,bypass authentication logs,0
+U0069,Tablet,Russia,2,Admin_Panel,change user roles and permissions,0
+U0070,Desktop,Russia,13,Database,view personal dashboard,1
+U0071,Laptop,China,6,API_Gateway,download monthly report,0
+U0072,Phone,Japan,16,Database,bypass authentication logs,0
+U0073,Phone,India,17,Logs_System,fetch recent activity,1
+U0074,Phone,India,21,Server_A,view personal dashboard,1
+U0075,Desktop,India,0,Database,fetch recent activity,1
+U0076,Laptop,India,3,API_Gateway,check system status,1
+U0077,Phone,India,20,User_Dashboard,access API documentation,1
+U0078,Laptop,Germany,0,User_Dashboard,export sensitive database,0
+U0079,Tablet,China,22,Database,download all user data,0
+U0080,Tablet,UK,0,API_Gateway,escalate admin privileges,0
+U0081,Tablet,Japan,3,Database,access API documentation,1
+U0082,Laptop,India,20,API_Gateway,query customer data for analysis,1
+U0083,Desktop,India,16,Admin_Panel,disable firewall settings,1
+U0084,Desktop,India,8,Server_A,shutdown production server,1
+U0085,Tablet,UK,5,Admin_Panel,download monthly report,1
+U0086,Phone,India,4,Server_A,escalate admin privileges,0
+U0087,Phone,India,9,Logs_System,change user roles and permissions,1
+U0088,Desktop,India,21,API_Gateway,download all user data,0
+U0089,Laptop,India,10,Admin_Panel,disable firewall settings,0
+U0090,Phone,India,10,API_Gateway,disable firewall settings,0
+U0091,Laptop,India,20,Logs_System,check system status,1
+U0092,Phone,India,3,API_Gateway,bypass authentication logs,0
+U0093,Tablet,Germany,17,Database,view personal dashboard,1
+U0094,Tablet,India,0,Admin_Panel,download monthly report,1
+U0095,Desktop,India,6,API_Gateway,access server logs to debug performance issues,1
+U0096,Tablet,Russia,23,Logs_System,query customer data for analysis,0
+U0097,Tablet,India,7,Logs_System,escalate admin privileges,1
+U0098,Tablet,UK,14,Admin_Panel,shutdown production server,0
+U0099,Tablet,UK,12,Admin_Panel,download all user data,0
+U0100,Desktop,China,11,Logs_System,fetch recent activity,1
+U0101,Laptop,India,21,Logs_System,change user roles and permissions,0
+U0102,Desktop,India,16,Server_A,access API documentation,1
+U0103,Tablet,India,16,Admin_Panel,view personal dashboard,1
+U0104,Phone,India,21,Admin_Panel,download all user data,1
+U0105,Phone,China,3,Database,export sensitive database,0
+U0106,Phone,Russia,6,Server_A,download monthly report,1
+U0107,Tablet,India,3,API_Gateway,bypass authentication logs,0
+U0108,Desktop,India,0,Logs_System,fetch recent activity,1
+U0109,Laptop,India,9,Logs_System,escalate admin privileges,1
+U0110,Tablet,India,14,User_Dashboard,escalate admin privileges,0
+U0111,Laptop,India,1,Admin_Panel,change user roles and permissions,0
+U0112,Phone,India,11,Database,shutdown production server,0
+U0113,Desktop,India,17,Server_A,view personal dashboard,1
+U0114,Phone,China,6,API_Gateway,shutdown production server,0
+U0115,Phone,India,15,Admin_Panel,view personal dashboard,1
+U0116,Desktop,India,8,Logs_System,escalate admin privileges,0
+U0117,Tablet,India,22,Logs_System,download monthly report,1
+U0118,Phone,India,18,Admin_Panel,fetch recent activity,1
+U0119,Tablet,Russia,11,User_Dashboard,check system status,1
+U0120,Phone,India,3,User_Dashboard,query customer data for analysis,1
+U0121,Tablet,India,12,Logs_System,download all user data,1
+U0122,Phone,Germany,2,Database,view personal dashboard,1
+U0123,Phone,India,22,Logs_System,query customer data for analysis,1
+U0124,Phone,India,14,API_Gateway,change user roles and permissions,0
+U0125,Desktop,India,22,Logs_System,download monthly report,1
+U0126,Desktop,India,0,Database,view personal dashboard,1
+U0127,Phone,India,2,Logs_System,view personal dashboard,1
+U0128,Phone,India,3,User_Dashboard,access server logs to debug performance issues,1
+U0129,Desktop,China,9,API_Gateway,export sensitive database,0
+U0130,Phone,India,5,User_Dashboard,bypass authentication logs,1
+U0131,Desktop,India,10,Logs_System,access server logs to debug performance issues,1
+U0132,Laptop,India,15,Logs_System,access API documentation,1
+U0133,Laptop,India,17,Logs_System,export sensitive database,1
+U0134,Laptop,India,17,Logs_System,check system status,1
+U0135,Tablet,Russia,7,Server_A,access server logs to debug performance issues,1
+U0136,Laptop,India,3,Server_A,access server logs to debug performance issues,1
+U0137,Phone,USA,20,Admin_Panel,escalate admin privileges,0
+U0138,Tablet,India,16,User_Dashboard,shutdown production server,0
+U0139,Tablet,China,17,Admin_Panel,access server logs to debug performance issues,1
+U0140,Desktop,India,12,Logs_System,escalate admin privileges,1
+U0141,Tablet,India,0,API_Gateway,shutdown production server,0
+U0142,Phone,Germany,13,Database,access server logs to debug performance issues,1
+U0143,Desktop,India,3,Server_A,query customer data for analysis,1
+U0144,Laptop,India,21,Server_A,fetch recent activity,1
+U0145,Phone,China,2,User_Dashboard,query customer data for analysis,1
+U0146,Phone,India,6,User_Dashboard,disable firewall settings,0
+U0147,Laptop,India,0,API_Gateway,access API documentation,1
+U0148,Desktop,Germany,13,Admin_Panel,download all user data,0
+U0149,Laptop,India,5,Admin_Panel,disable firewall settings,0
+U0150,Laptop,India,7,User_Dashboard,access server logs to debug performance issues,1
+U0151,Desktop,India,11,Logs_System,download monthly report,1
+U0152,Phone,India,3,Admin_Panel,download all user data,0
+U0153,Laptop,India,13,API_Gateway,download all user data,0
+U0154,Tablet,India,11,Logs_System,bypass authentication logs,1
+U0155,Phone,India,2,Database,export sensitive database,0
+U0156,Tablet,India,1,User_Dashboard,bypass authentication logs,0
+U0157,Phone,India,17,Logs_System,access server logs to debug performance issues,1
+U0158,Laptop,India,22,Database,shutdown production server,0
+U0159,Phone,India,7,User_Dashboard,disable firewall settings,1
+U0160,Desktop,Germany,13,Admin_Panel,fetch recent activity,1
+U0161,Tablet,India,7,Server_A,escalate admin privileges,0
+U0162,Laptop,India,15,Logs_System,access server logs to debug performance issues,1
+U0163,Laptop,USA,15,Logs_System,check system status,1
+U0164,Desktop,India,16,User_Dashboard,check system status,1
+U0165,Laptop,India,2,Logs_System,download all user data,0
+U0166,Phone,India,0,API_Gateway,disable firewall settings,0
+U0167,Phone,Russia,7,Admin_Panel,download monthly report,0
+U0168,Laptop,India,6,Logs_System,download all user data,1
+U0169,Tablet,Germany,15,Server_A,export sensitive database,0
+U0170,Phone,India,9,Database,download monthly report,1
+U0171,Tablet,India,23,Logs_System,query customer data for analysis,1
+U0172,Tablet,UK,12,Server_A,export sensitive database,0
+U0173,Tablet,USA,21,Server_A,download all user data,0
+U0174,Desktop,India,12,User_Dashboard,check system status,1
+U0175,Tablet,India,1,Database,view personal dashboard,1
+U0176,Desktop,USA,6,Server_A,access server logs to debug performance issues,1
+U0177,Phone,India,1,Server_A,download monthly report,1
+U0178,Tablet,India,21,Server_A,check system status,1
+U0179,Desktop,India,23,Admin_Panel,download monthly report,1
+U0180,Tablet,USA,13,API_Gateway,access API documentation,1
+U0181,Phone,India,1,User_Dashboard,download monthly report,1
+U0182,Laptop,India,4,Logs_System,fetch recent activity,1
+U0183,Tablet,India,22,Database,change user roles and permissions,1
+U0184,Tablet,UK,1,User_Dashboard,check system status,1
+U0185,Laptop,Japan,13,Server_A,view personal dashboard,1
+U0186,Phone,India,5,Server_A,disable firewall settings,1
+U0187,Laptop,Japan,21,Logs_System,download monthly report,0
+U0188,Tablet,India,8,Admin_Panel,download monthly report,1
+U0189,Laptop,Germany,13,Database,download monthly report,1
+U0190,Desktop,China,16,Server_A,download monthly report,1
+U0191,Laptop,India,5,Database,disable firewall settings,0
+U0192,Laptop,India,0,Logs_System,download all user data,0
+U0193,Laptop,India,12,Admin_Panel,escalate admin privileges,1
+U0194,Phone,India,0,User_Dashboard,change user roles and permissions,0
+U0195,Desktop,India,17,API_Gateway,view personal dashboard,1
+U0196,Tablet,India,7,Admin_Panel,escalate admin privileges,0
+U0197,Phone,India,9,Database,query customer data for analysis,1
+U0198,Phone,India,20,Logs_System,access server logs to debug performance issues,1
+U0199,Phone,India,15,User_Dashboard,view personal dashboard,1
+U0200,Desktop,India,22,Database,download monthly report,1
+U0201,Desktop,Japan,11,API_Gateway,download all user data,0
+U0202,Phone,India,19,Server_A,download all user data,0
+U0203,Laptop,India,6,API_Gateway,check system status,1
+U0204,Tablet,Germany,17,Database,change user roles and permissions,0
+U0205,Tablet,China,21,Server_A,change user roles and permissions,0
+U0206,Desktop,India,5,Server_A,access API documentation,1
+U0207,Desktop,Russia,8,Admin_Panel,view personal dashboard,1
+U0208,Desktop,USA,2,Admin_Panel,access API documentation,0
+U0209,Phone,China,17,Server_A,access server logs to debug performance issues,1
+U0210,Tablet,India,22,Logs_System,change user roles and permissions,1
+U0211,Desktop,India,1,Server_A,fetch recent activity,1
+U0212,Laptop,India,12,Server_A,download monthly report,1
+U0213,Desktop,India,1,Logs_System,access API documentation,1
+U0214,Desktop,India,20,API_Gateway,download all user data,1
+U0215,Phone,India,15,API_Gateway,escalate admin privileges,1
+U0216,Laptop,India,0,Database,escalate admin privileges,0
+U0217,Phone,USA,11,Admin_Panel,disable firewall settings,0
+U0218,Desktop,India,4,Server_A,view personal dashboard,1
+U0219,Desktop,India,18,User_Dashboard,query customer data for analysis,1
+U0220,Laptop,India,8,Admin_Panel,fetch recent activity,1
+U0221,Laptop,India,17,API_Gateway,disable firewall settings,1
+U0222,Tablet,India,10,API_Gateway,query customer data for analysis,1
+U0223,Phone,India,21,API_Gateway,check system status,1
+U0224,Desktop,India,2,Admin_Panel,access server logs to debug performance issues,1
+U0225,Phone,India,20,Admin_Panel,check system status,1
+U0226,Tablet,India,9,Server_A,download monthly report,1
+U0227,Laptop,India,6,User_Dashboard,view personal dashboard,1
+U0228,Phone,India,12,API_Gateway,download all user data,1
+U0229,Phone,India,14,API_Gateway,download all user data,1
+U0230,Tablet,India,3,Admin_Panel,escalate admin privileges,0
+U0231,Laptop,Germany,9,Database,fetch recent activity,1
+U0232,Desktop,India,21,API_Gateway,view personal dashboard,1
+U0233,Laptop,India,5,User_Dashboard,download all user data,1
+U0234,Desktop,India,10,API_Gateway,query customer data for analysis,1
+U0235,Tablet,India,5,Database,escalate admin privileges,0
+U0236,Phone,Russia,22,User_Dashboard,escalate admin privileges,0
+U0237,Phone,Japan,10,Admin_Panel,change user roles and permissions,0
+U0238,Tablet,India,18,Admin_Panel,access server logs to debug performance issues,1
+U0239,Laptop,Russia,23,Admin_Panel,bypass authentication logs,0
+U0240,Desktop,India,10,Admin_Panel,query customer data for analysis,1
+U0241,Laptop,India,21,Database,escalate admin privileges,1
+U0242,Laptop,India,4,Admin_Panel,view personal dashboard,1
+U0243,Phone,India,13,API_Gateway,download monthly report,1
+U0244,Desktop,Japan,18,API_Gateway,access API documentation,1
+U0245,Phone,India,21,User_Dashboard,fetch recent activity,1
+U0246,Laptop,India,18,Server_A,download monthly report,1
+U0247,Desktop,India,5,API_Gateway,fetch recent activity,1
+U0248,Desktop,Japan,10,Admin_Panel,change user roles and permissions,0
+U0249,Desktop,India,11,Admin_Panel,view personal dashboard,1
+U0250,Desktop,Russia,12,Database,access server logs to debug performance issues,1
+U0251,Phone,USA,23,User_Dashboard,bypass authentication logs,0
+U0252,Desktop,India,11,Admin_Panel,export sensitive database,1
+U0253,Tablet,India,15,Logs_System,fetch recent activity,1
+U0254,Laptop,India,18,Admin_Panel,check system status,1
+U0255,Tablet,China,2,Server_A,export sensitive database,0
+U0256,Phone,India,9,Admin_Panel,shutdown production server,1
+U0257,Phone,India,19,API_Gateway,check system status,1
+U0258,Desktop,India,16,API_Gateway,change user roles and permissions,1
+U0259,Phone,Germany,6,API_Gateway,escalate admin privileges,0
+U0260,Laptop,India,21,Logs_System,download monthly report,1
+U0261,Tablet,Germany,3,Server_A,shutdown production server,0
+U0262,Laptop,India,20,User_Dashboard,download monthly report,1
+U0263,Desktop,India,14,User_Dashboard,query customer data for analysis,1
+U0264,Tablet,USA,21,Database,check system status,0
+U0265,Phone,India,9,Logs_System,fetch recent activity,1
+U0266,Laptop,Japan,3,API_Gateway,disable firewall settings,0
+U0267,Laptop,India,2,User_Dashboard,fetch recent activity,1
+U0268,Phone,India,4,API_Gateway,download monthly report,1
+U0269,Tablet,India,2,Database,change user roles and permissions,0
+U0270,Tablet,India,0,Server_A,access API documentation,1
+U0271,Laptop,USA,21,Admin_Panel,access API documentation,0
+U0272,Desktop,India,13,Server_A,query customer data for analysis,1
+U0273,Tablet,India,2,Logs_System,change user roles and permissions,0
+U0274,Phone,India,1,Database,access API documentation,1
+U0275,Desktop,India,20,Server_A,view personal dashboard,1
+U0276,Phone,India,21,API_Gateway,disable firewall settings,0
+U0277,Phone,Japan,3,Logs_System,fetch recent activity,0
+U0278,Desktop,India,11,User_Dashboard,check system status,1
+U0279,Laptop,India,11,User_Dashboard,escalate admin privileges,0
+U0280,Desktop,India,15,Admin_Panel,check system status,1
+U0281,Laptop,India,19,Admin_Panel,escalate admin privileges,0
+U0282,Tablet,India,13,API_Gateway,view personal dashboard,1
+U0283,Phone,India,21,Logs_System,access server logs to debug performance issues,1
+U0284,Tablet,India,23,User_Dashboard,bypass authentication logs,1
+U0285,Phone,Russia,15,Logs_System,view personal dashboard,1
+U0286,Laptop,India,14,User_Dashboard,shutdown production server,1
+U0287,Phone,UK,20,User_Dashboard,bypass authentication logs,0
+U0288,Desktop,India,18,API_Gateway,view personal dashboard,1
+U0289,Tablet,Japan,14,Logs_System,fetch recent activity,1
+U0290,Desktop,UK,10,Logs_System,fetch recent activity,1
+U0291,Desktop,India,5,User_Dashboard,change user roles and permissions,0
+U0292,Desktop,China,11,User_Dashboard,fetch recent activity,1
+U0293,Tablet,Russia,10,Database,shutdown production server,0
+U0294,Desktop,India,2,User_Dashboard,export sensitive database,0
+U0295,Desktop,India,6,Server_A,bypass authentication logs,0
+U0296,Phone,India,8,Server_A,download monthly report,1
+U0297,Phone,Japan,12,Database,check system status,1
+U0298,Phone,India,11,Server_A,query customer data for analysis,1
+U0299,Phone,UK,9,API_Gateway,view personal dashboard,1
+U0300,Phone,India,14,Server_A,fetch recent activity,1
+U0301,Laptop,India,4,Database,download all user data,0
+U0302,Laptop,India,17,API_Gateway,shutdown production server,1
+U0303,Desktop,India,7,Admin_Panel,view personal dashboard,1
+U0304,Phone,India,1,User_Dashboard,access API documentation,1
+U0305,Phone,UK,17,User_Dashboard,view personal dashboard,1
+U0306,Phone,India,19,Server_A,view personal dashboard,1
+U0307,Phone,India,5,API_Gateway,export sensitive database,0
+U0308,Desktop,Japan,14,Logs_System,fetch recent activity,1
+U0309,Desktop,India,2,API_Gateway,download monthly report,1
+U0310,Phone,India,6,User_Dashboard,change user roles and permissions,1
+U0311,Desktop,India,15,Server_A,shutdown production server,0
+U0312,Laptop,Germany,13,API_Gateway,fetch recent activity,1
+U0313,Desktop,India,2,Server_A,change user roles and permissions,0
+U0314,Desktop,India,8,Database,access API documentation,1
+U0315,Laptop,India,12,Admin_Panel,download all user data,1
+U0316,Tablet,India,2,Database,download all user data,0
+U0317,Tablet,USA,7,Admin_Panel,check system status,1
+U0318,Phone,China,18,Logs_System,check system status,1
+U0319,Laptop,India,4,API_Gateway,view personal dashboard,1
+U0320,Phone,India,4,Logs_System,escalate admin privileges,0
+U0321,Laptop,India,10,Admin_Panel,shutdown production server,1
+U0322,Phone,India,5,Database,query customer data for analysis,1
+U0323,Phone,India,11,API_Gateway,download monthly report,1
+U0324,Tablet,Japan,12,Database,download monthly report,1
+U0325,Desktop,India,22,User_Dashboard,check system status,1
+U0326,Phone,Japan,22,Logs_System,view personal dashboard,0
+U0327,Desktop,Russia,23,User_Dashboard,access server logs to debug performance issues,0
+U0328,Desktop,India,21,Logs_System,change user roles and permissions,1
+U0329,Laptop,India,9,Admin_Panel,fetch recent activity,1
+U0330,Phone,Japan,8,Server_A,check system status,0
+U0331,Phone,India,15,Admin_Panel,access server logs to debug performance issues,1
+U0332,Phone,India,19,User_Dashboard,download monthly report,1
+U0333,Desktop,India,0,Database,change user roles and permissions,0
+U0334,Phone,India,19,API_Gateway,access API documentation,1
+U0335,Phone,India,5,Admin_Panel,view personal dashboard,1
+U0336,Laptop,Russia,14,API_Gateway,access server logs to debug performance issues,1
+U0337,Tablet,Russia,10,User_Dashboard,access API documentation,1
+U0338,Desktop,Japan,21,Admin_Panel,escalate admin privileges,0
+U0339,Desktop,India,22,Database,download monthly report,1
+U0340,Phone,India,3,User_Dashboard,download monthly report,1
+U0341,Desktop,India,13,Server_A,export sensitive database,0
+U0342,Tablet,India,5,Database,access server logs to debug performance issues,1
+U0343,Laptop,UK,8,Admin_Panel,query customer data for analysis,0
+U0344,Laptop,Japan,6,User_Dashboard,access server logs to debug performance issues,0
+U0345,Phone,India,11,Database,download monthly report,1
+U0346,Tablet,China,21,Server_A,download all user data,0
+U0347,Tablet,India,1,User_Dashboard,view personal dashboard,1
+U0348,Desktop,India,11,Logs_System,shutdown production server,0
+U0349,Laptop,India,22,Database,check system status,1
+U0350,Tablet,Germany,9,Logs_System,query customer data for analysis,1
+U0351,Desktop,India,18,API_Gateway,access API documentation,1
+U0352,Desktop,India,10,API_Gateway,disable firewall settings,0
+U0353,Phone,India,5,User_Dashboard,check system status,1
+U0354,Desktop,India,8,API_Gateway,access server logs to debug performance issues,1
+U0355,Desktop,Japan,8,Admin_Panel,shutdown production server,0
+U0356,Tablet,UK,7,User_Dashboard,download monthly report,1
+U0357,Desktop,India,12,Database,access API documentation,1
+U0358,Tablet,Japan,20,Logs_System,download all user data,0
+U0359,Phone,USA,11,Database,download monthly report,1
+U0360,Laptop,India,17,API_Gateway,access API documentation,1
+U0361,Tablet,India,20,API_Gateway,download all user data,0
+U0362,Desktop,UK,11,Database,query customer data for analysis,1
+U0363,Tablet,India,10,Admin_Panel,escalate admin privileges,0
+U0364,Phone,India,5,Database,fetch recent activity,1
+U0365,Phone,India,2,Admin_Panel,query customer data for analysis,1
+U0366,Laptop,India,12,Database,download all user data,1
+U0367,Phone,India,7,Database,check system status,1
+U0368,Phone,India,21,Server_A,query customer data for analysis,1
+U0369,Phone,India,13,Server_A,query customer data for analysis,1
+U0370,Phone,Russia,2,Admin_Panel,export sensitive database,0
+U0371,Phone,India,9,API_Gateway,download all user data,1
+U0372,Phone,China,5,User_Dashboard,fetch recent activity,0
+U0373,Phone,India,21,Server_A,query customer data for analysis,1
+U0374,Tablet,India,16,Database,change user roles and permissions,1
+U0375,Laptop,India,22,Admin_Panel,view personal dashboard,1
+U0376,Laptop,India,13,User_Dashboard,download all user data,1
+U0377,Phone,India,17,User_Dashboard,shutdown production server,1
+U0378,Desktop,UK,8,API_Gateway,change user roles and permissions,0
+U0379,Phone,China,18,User_Dashboard,fetch recent activity,1
+U0380,Phone,India,8,User_Dashboard,fetch recent activity,1
+U0381,Desktop,India,2,API_Gateway,check system status,1
+U0382,Phone,India,3,Server_A,shutdown production server,0
+U0383,Tablet,India,11,User_Dashboard,escalate admin privileges,1
+U0384,Desktop,India,12,API_Gateway,fetch recent activity,1
+U0385,Tablet,India,4,Database,access API documentation,1
+U0386,Laptop,India,2,API_Gateway,access server logs to debug performance issues,1
+U0387,Tablet,China,8,Admin_Panel,query customer data for analysis,1
+U0388,Laptop,India,13,User_Dashboard,export sensitive database,1
+U0389,Tablet,UK,6,Logs_System,access API documentation,0
+U0390,Desktop,India,23,Database,check system status,1
+U0391,Desktop,Germany,15,Database,view personal dashboard,1
+U0392,Laptop,India,17,User_Dashboard,check system status,1
+U0393,Phone,India,23,Database,bypass authentication logs,1
+U0394,Tablet,Germany,17,API_Gateway,query customer data for analysis,1
+U0395,Desktop,China,19,Database,change user roles and permissions,0
+U0396,Desktop,India,17,Admin_Panel,access server logs to debug performance issues,1
+U0397,Desktop,India,13,Logs_System,escalate admin privileges,1
+U0398,Laptop,India,4,User_Dashboard,view personal dashboard,1
+U0399,Phone,China,21,API_Gateway,fetch recent activity,1
+U0400,Laptop,India,14,Server_A,export sensitive database,1
+U0401,Laptop,Russia,11,Database,access API documentation,1
+U0402,Laptop,India,18,User_Dashboard,export sensitive database,1
+U0403,Phone,India,17,Database,export sensitive database,0
+U0404,Tablet,China,12,API_Gateway,access server logs to debug performance issues,1
+U0405,Tablet,India,12,Admin_Panel,download monthly report,1
+U0406,Desktop,Japan,0,User_Dashboard,change user roles and permissions,0
+U0407,Desktop,India,14,API_Gateway,download all user data,1
+U0408,Phone,India,11,User_Dashboard,escalate admin privileges,1
+U0409,Phone,India,22,Database,download monthly report,1
+U0410,Tablet,Germany,2,User_Dashboard,download monthly report,0
+U0411,Laptop,India,19,API_Gateway,access server logs to debug performance issues,1
+U0412,Desktop,Germany,16,Database,change user roles and permissions,0
+U0413,Laptop,India,21,Admin_Panel,escalate admin privileges,0
+U0414,Tablet,Japan,7,Admin_Panel,access server logs to debug performance issues,1
+U0415,Tablet,India,11,Server_A,fetch recent activity,1
+U0416,Phone,USA,8,Logs_System,check system status,1
+U0417,Phone,India,2,Logs_System,bypass authentication logs,0
+U0418,Phone,India,7,Database,change user roles and permissions,1
+U0419,Laptop,Germany,22,Database,fetch recent activity,1
+U0420,Phone,India,18,API_Gateway,query customer data for analysis,1
+U0421,Phone,India,1,API_Gateway,access server logs to debug performance issues,1
+U0422,Laptop,Germany,16,Database,escalate admin privileges,0
+U0423,Tablet,Germany,10,API_Gateway,escalate admin privileges,0
+U0424,Phone,UK,7,Database,fetch recent activity,1
+U0425,Desktop,India,21,API_Gateway,query customer data for analysis,1
+U0426,Desktop,India,20,Server_A,access API documentation,1
+U0427,Desktop,India,4,Logs_System,access API documentation,1
+U0428,Desktop,India,23,Database,view personal dashboard,1
+U0429,Laptop,India,0,Admin_Panel,access server logs to debug performance issues,1
+U0430,Tablet,India,7,User_Dashboard,download monthly report,1
+U0431,Laptop,Japan,0,Server_A,access API documentation,1
+U0432,Phone,India,4,Server_A,escalate admin privileges,0
+U0433,Phone,India,5,User_Dashboard,shutdown production server,0
+U0434,Phone,India,19,Server_A,bypass authentication logs,1
+U0435,Phone,UK,19,Admin_Panel,download monthly report,1
+U0436,Phone,India,2,Admin_Panel,change user roles and permissions,0
+U0437,Phone,India,17,Logs_System,disable firewall settings,0
+U0438,Desktop,India,19,Logs_System,query customer data for analysis,1
+U0439,Tablet,India,9,Server_A,check system status,1
+U0440,Phone,India,19,Server_A,download all user data,0
+U0441,Desktop,India,9,Database,download monthly report,1
+U0442,Laptop,India,7,Database,disable firewall settings,1
+U0443,Tablet,India,22,User_Dashboard,change user roles and permissions,1
+U0444,Desktop,India,19,Logs_System,access server logs to debug performance issues,1
+U0445,Phone,India,10,Server_A,download all user data,0
+U0446,Laptop,India,14,Database,disable firewall settings,1
+U0447,Laptop,India,21,Logs_System,download all user data,0
+U0448,Desktop,Germany,17,API_Gateway,access API documentation,1
+U0449,Phone,UK,20,Logs_System,access API documentation,1
+U0450,Laptop,India,8,User_Dashboard,view personal dashboard,1
+U0451,Tablet,India,0,Database,access API documentation,1
+U0452,Desktop,UK,12,API_Gateway,view personal dashboard,1
+U0453,Tablet,India,6,Database,export sensitive database,1
+U0454,Tablet,China,21,User_Dashboard,export sensitive database,0
+U0455,Phone,China,19,API_Gateway,access API documentation,1
+U0456,Tablet,India,9,User_Dashboard,access server logs to debug performance issues,1
+U0457,Tablet,India,9,Database,access API documentation,1
+U0458,Laptop,Russia,18,Server_A,download monthly report,1
+U0459,Tablet,India,4,Admin_Panel,download monthly report,1
+U0460,Desktop,India,17,Admin_Panel,change user roles and permissions,0
+U0461,Desktop,India,14,Admin_Panel,view personal dashboard,1
+U0462,Laptop,India,3,Logs_System,change user roles and permissions,0
+U0463,Desktop,India,5,Server_A,download monthly report,1
+U0464,Tablet,India,14,Server_A,change user roles and permissions,1
+U0465,Phone,India,16,Logs_System,escalate admin privileges,1
+U0466,Desktop,India,18,API_Gateway,disable firewall settings,1
+U0467,Desktop,India,9,User_Dashboard,access server logs to debug performance issues,1
+U0468,Laptop,India,18,Admin_Panel,change user roles and permissions,1
+U0469,Desktop,India,19,Server_A,access API documentation,1
+U0470,Desktop,Russia,15,Database,view personal dashboard,1
+U0471,Laptop,India,2,Server_A,download all user data,0
+U0472,Desktop,India,10,Server_A,disable firewall settings,0
+U0473,Laptop,India,19,Server_A,access API documentation,1
+U0474,Phone,India,1,Database,access API documentation,1
+U0475,Laptop,India,14,User_Dashboard,change user roles and permissions,1
+U0476,Tablet,India,5,Logs_System,fetch recent activity,1
+U0477,Laptop,India,4,API_Gateway,escalate admin privileges,0
+U0478,Tablet,USA,11,Database,bypass authentication logs,0
+U0479,Laptop,India,3,Logs_System,change user roles and permissions,0
+U0480,Phone,India,13,Database,download monthly report,1
+U0481,Laptop,India,3,API_Gateway,download all user data,0
+U0482,Tablet,Germany,5,Logs_System,download monthly report,1
+U0483,Laptop,India,17,Admin_Panel,check system status,1
+U0484,Laptop,India,12,Server_A,shutdown production server,1
+U0485,Desktop,India,17,Admin_Panel,bypass authentication logs,0
+U0486,Phone,India,10,User_Dashboard,access API documentation,1
+U0487,Laptop,India,11,Admin_Panel,query customer data for analysis,1
+U0488,Laptop,India,22,API_Gateway,export sensitive database,0
+U0489,Tablet,India,3,User_Dashboard,fetch recent activity,1
+U0490,Tablet,India,20,User_Dashboard,export sensitive database,0
+U0491,Phone,India,17,API_Gateway,fetch recent activity,1
+U0492,Tablet,India,6,API_Gateway,check system status,1
+U0493,Laptop,India,10,API_Gateway,fetch recent activity,1
+U0494,Laptop,India,13,Logs_System,change user roles and permissions,0
+U0495,Tablet,India,16,Logs_System,download all user data,0
+U0496,Tablet,India,13,Logs_System,access API documentation,1
+U0497,Desktop,India,22,Logs_System,bypass authentication logs,0
+U0498,Desktop,India,3,User_Dashboard,export sensitive database,0
+U0499,Tablet,India,8,Admin_Panel,disable firewall settings,0
+U0500,Phone,India,2,Admin_Panel,download monthly report,1

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Access Decision</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    .shake { animation: shake 0.5s ease-in-out; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex items-center justify-center">
+
+  <div id="decision-card" class="w-full max-w-5xl p-8 rounded-2xl shadow-lg bg-white 
+    {% if result.decision == 'ACCESS GRANTED' %} border-t-8 border-green-500 
+    {% else %} border-t-8 border-red-600 shake {% endif %}">
+
+    
+    <div class="text-center mb-6">
+      <h2 class="text-3xl font-bold 
+        {% if result.decision == 'ACCESS GRANTED' %} text-green-600 {% else %} text-red-600 {% endif %}">
+        Access Decision
+      </h2>
+      <p class="mt-2 text-lg">
+        <b>Decision:</b> 
+        <span class="{% if result.decision == 'ACCESS GRANTED' %} text-green-600 {% else %} text-red-600 {% endif %}">
+          {{ result.decision }}
+        </span>
+      </p>
+      <p class="text-lg"><b>Trust Score:</b> {{ result.trust_score }}%</p>
+    </div>
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      
+      <div>
+        <h3 class="font-semibold text-blue-700 mb-2">Risks</h3>
+        <ul class="list-disc list-inside text-gray-700 bg-blue-50 p-4 rounded-lg shadow-sm">
+          {% for k, v in result.risks.items() %}
+            <li><b>{{ k }}:</b> {{ v }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      
+      <div>
+        <h3 class="font-semibold text-green-700 mb-2">Request Context</h3>
+        <ul class="list-disc list-inside text-gray-700 bg-green-50 p-4 rounded-lg shadow-sm">
+          {% for k, v in result.request.items() %}
+            <li><b>{{ k }}:</b> {{ v }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="mt-8 text-center border-t pt-6">
+      <h3 class="text-lg font-semibold mb-3">Navigation</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="{{ url_for('predict') }}" class="px-5 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded-lg shadow">New Prediction</a>
+        <a href="{{ url_for('dashboard') }}" class="px-5 py-2 bg-green-600 text-white hover:bg-green-700 rounded-lg shadow">Dashboard</a>
+        <a href="{{ url_for('dataset') }}" class="px-5 py-2 bg-purple-600 text-white hover:bg-purple-700 rounded-lg shadow">View Dataset</a>
+      </div>
+    </div>
+  </div>
+
+  {% if result.decision != 'ACCESS GRANTED' %}
+  <audio autoplay>
+    <source src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" type="audio/ogg">
+  </audio>
+  {% endif %}
+
+</body>
+</html>
